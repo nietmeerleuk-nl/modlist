@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Poke Revange - Mod List</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Press Start 2P', cursive;
+      background: linear-gradient(to bottom, #f23a3a 50%, #ffffff 50%);
+      color: #222;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: radial-gradient(circle, transparent 40%, #00000020 41%, #00000022 45%, transparent 46%) 50% 50% / 80px 80px repeat;
+      opacity: 0.15;
+      z-index: 0;
+      pointer-events: none;
+    }
+
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 60px;
+      background: #a80008;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+      z-index: 10;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.7);
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      font-weight: bold;
+      padding: 6px 10px;
+      border-radius: 6px;
+      transition: background-color 0.25s ease;
+      text-shadow: 1px 1px 0 #000;
+    }
+
+    nav a:hover {
+      background-color: #ff1a1a;
+      box-shadow: 0 0 6px #ff4d4d;
+    }
+
+    .mod-list-container {
+      margin-top: 100px;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .mod-list {
+      max-width: 800px;
+      border: 4px solid black;
+      border-radius: 10px;
+      padding: 30px;
+      background: #fff5f5;
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    }
+
+    .mod-list ul {
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
+    }
+
+    .mod-list li {
+      margin: 12px 0;
+      line-height: 1.5;
+    }
+
+    .mod-list a {
+      color: #222;
+      text-decoration: none;
+      font-size: 0.6rem;
+    }
+
+    .mod-list a:hover {
+      text-decoration: underline;
+      color: #a80008;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="modpack.html">Modpack</a>
+    <a href="index.html">Mod List</a>
+  </nav>
+
+  <div class="mod-list-container">
+    <div class="mod-list">
+      <ul>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/jei">Just Enough Items (JEI) (by mezz)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/morecobblemontweaks">MoreCobblemonTweaks (by JustAHuman_xD)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/cobblefurnies">CobbleFurnies (by LunazStudios)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/yungs-api-fabric">YUNG's API (Fabric) (by YUNGNICKYOUNG)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/fabric-api">Fabric API (by modmuss50)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/fabric-language-kotlin">Fabric Language Kotlin (by modmuss50)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/athena">Athena (by terrariumearth)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/data-packs/pokeloot-cobblemon">PokeLoot [Cobblemon] (by Quim201)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/cloth-config">Cloth Config API (by shedaniel)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map">Xaero's World Map (by xaero96)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/enchanting-infuser-forge">Enchanting Infuser (by Fuzs)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/geckolib">GeckoLib (by Gecko)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/forge-config-api-port-fabric">Forge Config API Port (by Fuzs)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/lavender-api">Lavender API (by gliscowo)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/knowlogy">Knowlogy Book (by StalckVinny)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/paxi-fabric">Paxi (Fabric) (by YUNGNICKYOUNG)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/simpletms-tms-and-trs-for-cobblemon">SimpleTMs: TMs and TRs (by dragomordor)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/puzzles-lib">Puzzles Lib (by Fuzs)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/trinkets">Trinkets (by EmilyPloszaj)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/cobblemon-mega-showdown">Cobblemon: Mega Showdown (by yajatkaul)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap">Xaero's Minimap (by xaero96)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/cobblemon-knowlogy">Cobblemon Knowlogy (by StalckVinny)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/cobblemon">Cobblemon (by CobbledStudios)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/owo-lib">owo-lib (by gliscowo)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/architectury-api">Architectury API (by shedaniel)</a></li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
